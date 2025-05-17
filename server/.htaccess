@@ -1,0 +1,12 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/imtsonline/erp.imts.ac.in/api"
+PassengerBaseURI "/api"
+PassengerNodejs "/home/imtsonline/nodevenv/erp.imts.ac.in/api/14/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv JWT_SECRET_KEY KHGJHGY^*&*YHGGFIG*&
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
